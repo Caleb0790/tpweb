@@ -24,9 +24,9 @@ public class HelloServlet extends GenericTpServlet {
     }
     
     @Override
-    public String process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException  {
-    	return "Hello "+new
-				java.util.Date().toString();
+    public void process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException  {
+    	// "Hello "+new
+		//		java.util.Date().toString();
     }
 
 }

@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 public class ParamServlet extends GenericTpServlet {
 
 	@Override
-	public String process(HttpServletRequest request, HttpServletResponse response)
+	public void process(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		return null;
+		
 	}
 
        
